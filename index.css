@@ -8,9 +8,16 @@
 
 @import url("/web_project_4_ptbr/blocks/profile/profile.css");
 @import url("/web_project_4_ptbr/blocks/profile/__image/profile__image.css");
-@import url("/web_project_4_ptbr/blocks/profile/__info-conteiner/profile__info-container.css");
-@import url("/web_project_4_ptbr/blocks/profile/__info-conteiner/__info/profile__info.css");
-@import url("/web_project_4_ptbr/blocks/profile/__info-conteiner/__info/__name/profile__name.css");
-@import url("/web_project_4_ptbr/blocks/profile/__info-conteiner/__info/__description/profile__description.css");
+@import url("/web_project_4_ptbr/blocks/profile/__info-container/profile__info-container.css");
+@import url("/web_project_4_ptbr/blocks/profile/__info-container/__info/profile__info.css");
+@import url("/web_project_4_ptbr/blocks/profile/__info-container/__info/__name/profile__name.css");
+@import url("/web_project_4_ptbr/blocks/profile/__info-container/__info/__description/profile__description.css");
 @import url("/web_project_4_ptbr/blocks/profile/__edit/profile__edit.css");
 @import url("/web_project_4_ptbr/blocks/profile/__add-image/profile__add-image.css");
+
+@import url("/web_project_4_ptbr/blocks/profile/edit__form-container/edit__form-container.css");
+@import url("/web_project_4_ptbr/blocks/profile/edit__form-container/form__title/form__title.css");
+@import url("/web_project_4_ptbr/blocks/profile/edit__form-container/input__name/input__name.css");
+@import url("/web_project_4_ptbr/blocks/profile/edit__form-container/input__description/input__description.css");
+@import url("/web_project_4_ptbr/blocks/profile/edit__form-container/form__button-submit/form__button-submit.css");
+@import url("/web_project_4_ptbr/blocks/profile/edit__form-container/form__button-close/form__buton-close.css");

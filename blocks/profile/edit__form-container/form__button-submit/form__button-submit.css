@@ -1,0 +1,16 @@
+.form__button-submit{
+  border: none;
+  font-family: inherit;
+  max-width: 358px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-inline: auto;
+  padding: 15px 160px 15px 160px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+.form__button-submit:hover{
+    background-color: rgb(71, 71, 71);
+}
