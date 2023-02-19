@@ -1,0 +1,15 @@
+.profile__add-image{
+    background-image: url("/web_project_4_ptbr/images/Add\ Button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.profile__add-image:hover{
+    opacity: 0.4;
+}

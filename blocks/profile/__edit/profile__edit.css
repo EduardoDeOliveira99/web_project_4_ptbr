@@ -1,0 +1,17 @@
+.profile__edit{
+    background-image: url("/web_project_4_ptbr/images/Edit\ Button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    border: none;
+    background-color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    margin-left: 18px;
+    margin-top: 13px;
+    transition: opacity .3s;
+}
+
+.profile__edit:hover{
+    opacity: 0.3;
+}
