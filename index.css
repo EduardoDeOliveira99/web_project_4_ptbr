@@ -1,0 +1,7 @@
+@import url("/web_project_4_ptbr/vendor/normalize.css");
+
+@import url("/web_project_4_ptbr/blocks/main/main.css");
+
+@import url("/web_project_4_ptbr/blocks/header/header.css");
+@import url("/web_project_4_ptbr/blocks/header/__logo/header__logo.css");
+@import url("/web_project_4_ptbr/blocks/header/__bottom-line/header__bottom-line.css");
