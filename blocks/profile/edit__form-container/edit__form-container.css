@@ -6,7 +6,29 @@
     position: absolute;
     display: none;
     flex-direction: column;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 900px){
+    .edit__form-container{
+       top: 30%
+    }
+}
+@media screen and (max-width: 750px){
+    .edit__form-container{
+        top: 35%
+    }
+}
+@media screen and (max-width: 650px){
+    .edit__form-container{
+        top: 22%
+    }
+}
+@media screen and (max-width: 550px){
+    .edit__form-container{
+        width: 282px;
+        height: 322px;
+    }
 }

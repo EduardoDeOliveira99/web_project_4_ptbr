@@ -5,3 +5,8 @@
     font-weight: 400;
     margin: 0;
 }
+@media screen and (max-width: 750px){
+    .profile__description{
+        align-self: center;
+    }
+}

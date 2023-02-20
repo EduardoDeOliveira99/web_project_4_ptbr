@@ -13,3 +13,11 @@
 .profile__add-image:hover{
     opacity: 0.4;
 }
+@media screen and (max-width: 750px){
+    .profile__add-image{
+        background-image: url("/web_project_4_ptbr/images/profile/Add\ Button\ mobile.png");
+        background-size:contain;
+        background-repeat: no-repeat;
+        min-width: 282px;
+    }
+}

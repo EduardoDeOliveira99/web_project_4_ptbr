@@ -7,15 +7,18 @@ const editProfile = document.querySelector(".profile__edit");
 const editForm = document.querySelector(".edit__form-container");
 const editFormClose = document.querySelector(".form__button-close");
 const saveFormEdit = document.querySelector(".form__button-submit");
+const overlay = document.querySelector(".overlay");
 
 inputName.placeholder = profileName.textContent;
 inputDescription.placeholder = profileDescription.textContent;
 
 function showClick (){
-    editForm.classList.add("edit__form-container_active");
+    console.log("teste");
 }
 
 editProfile.addEventListener('click', showClick);
+
+
 
 function showClick (){
     editForm.classList.toggle("edit__form-container_active");
