@@ -1,0 +1,16 @@
+.grid__element__fav-icon{
+    background-image: url("/web_project_4_ptbr/images/photos/Vector.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 20px;
+    height: 18px;
+    cursor: pointer;
+    align-self: center;
+    transition: opacity .3s;
+}
+
+.grid__element__fav-icon:hover{
+    opacity: 0.3;
+}

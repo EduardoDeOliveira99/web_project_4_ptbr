@@ -21,3 +21,11 @@
 @import url("/web_project_4_ptbr/blocks/profile/edit__form-container/input__description/input__description.css");
 @import url("/web_project_4_ptbr/blocks/profile/edit__form-container/form__button-submit/form__button-submit.css");
 @import url("/web_project_4_ptbr/blocks/profile/edit__form-container/form__button-close/form__buton-close.css");
+
+@import url("/web_project_4_ptbr/blocks/photos/photos.css");
+@import url("/web_project_4_ptbr/blocks/photos/__grid/photos__grid.css");
+@import url("/web_project_4_ptbr/blocks/photos/__grid/__image/grid__image.css");
+@import url("/web_project_4_ptbr/blocks/photos/__grid/__element/grid__element.css");
+@import url("/web_project_4_ptbr/blocks/photos/__grid/__description/grid__description.css");
+@import url("/web_project_4_ptbr/blocks/photos/__grid/__description/__text/grid__description__text.css");
+@import url("/web_project_4_ptbr/blocks/photos/__grid/__element/__fav-icon/grid__element__fav-icon.css");
