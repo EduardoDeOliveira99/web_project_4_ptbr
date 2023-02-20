@@ -15,7 +15,7 @@
 }
 @media screen and (max-width: 750px){
     .profile__add-image{
-        background-image: url("./images/profile/Add\ Button\ mobile.png");
+        background-image: url("/images/profile/Add\ Button\ mobile.png");
         background-size:contain;
         background-repeat: no-repeat;
         min-width: 282px;
