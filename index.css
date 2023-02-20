@@ -29,3 +29,6 @@
 @import url("/web_project_4_ptbr/blocks/photos/__grid/__description/grid__description.css");
 @import url("/web_project_4_ptbr/blocks/photos/__grid/__description/__text/grid__description__text.css");
 @import url("/web_project_4_ptbr/blocks/photos/__grid/__element/__fav-icon/grid__element__fav-icon.css");
+
+@import url("/web_project_4_ptbr/blocks/footer/footer.css");
+@import url("/web_project_4_ptbr/blocks/footer/__text/footer__text.css");
