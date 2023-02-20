@@ -12,8 +12,10 @@ const overlay = document.querySelector(".overlay");
 inputName.placeholder = profileName.textContent;
 inputDescription.placeholder = profileDescription.textContent;
 
-function showClick (){
-    console.log("teste");
+ function showClick (){
+    overlay.classList.add("overlay_active");
+    //editForm.classList.add("edit__form-container_active");
+  
 }
 
 editProfile.addEventListener('click', showClick);
@@ -21,7 +23,7 @@ editProfile.addEventListener('click', showClick);
 
 
 function showClick (){
-    editForm.classList.toggle("edit__form-container_active");
+   editForm.classList.toggle("edit__form-container_active");
 }
 
 editFormClose.addEventListener('click', showClick);
