@@ -1,5 +1,5 @@
 .profile__add-image{
-    background-image: url("/web_project_4_ptbr/images/profile/Add\ Button.png");
+    background-image: url("/images/profile/Add\ Button.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 150px;
@@ -15,7 +15,7 @@
 }
 @media screen and (max-width: 750px){
     .profile__add-image{
-        background-image: url("/web_project_4_ptbr/images/profile/Add\ Button\ mobile.png");
+        background-image: url("./images/profile/Add\ Button\ mobile.png");
         background-size:contain;
         background-repeat: no-repeat;
         min-width: 282px;
