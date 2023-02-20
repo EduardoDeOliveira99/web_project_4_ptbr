@@ -16,6 +16,7 @@
 @import url("/web_project_4_ptbr/blocks/profile/__add-image/profile__add-image.css");
 
 @import url("/web_project_4_ptbr/blocks/profile/edit__form-container/edit__form-container.css");
+@import url("/web_project_4_ptbr/blocks/profile/edit__form-container/_active/edit__form-container_active.css");
 @import url("/web_project_4_ptbr/blocks/profile/edit__form-container/form__title/form__title.css");
 @import url("/web_project_4_ptbr/blocks/profile/edit__form-container/input__name/input__name.css");
 @import url("/web_project_4_ptbr/blocks/profile/edit__form-container/input__description/input__description.css");
