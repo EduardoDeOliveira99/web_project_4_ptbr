@@ -1,3 +1,5 @@
+@import url("/Inter/Inter-VariableFont_slnt\,wght.ttf");
+
 @import url("./vendor/normalize.css");
 
 @import url("./blocks/main/main.css");
@@ -27,11 +29,11 @@
 
 @import url("./blocks/photos/photos.css");
 @import url("./blocks/photos/__grid/photos__grid.css");
-@import url("./blocks/photos/__grid/__image/grid__image.css");
-@import url("./blocks/photos/__grid/__element/grid__element.css");
-@import url("./blocks/photos/__grid/__description/grid__description.css");
-@import url("./blocks/photos/__grid/__description/__text/grid__description__text.css");
-@import url("./blocks/photos/__grid/__element/__fav-icon/grid__element__fav-icon.css");
+@import url("./blocks/photos/__grid/__image/photos__grid__image.css");
+@import url("./blocks/photos/__grid/__element/photos__grid__element.css");
+@import url("./blocks/photos/__grid/__description/photos__grid__description.css");
+@import url("./blocks/photos/__grid/__description/__text/photos__grid__description__text.css");
+@import url("./blocks/photos/__grid/__element/__fav-icon/photos__grid__element__fav-icon.css");
 
 @import url("./blocks/footer/footer.css");
 @import url("./blocks/footer/__text/footer__text.css");

@@ -1,6 +1,10 @@
+@font-face {
+    font-family: "inter";
+    src: url("/Inter/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+}
+
 .main{
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
+    font-family: "inter", Arial, sans-serif;
     background-color: hsl(0, 0%, 0%);
     position: relative;
 }

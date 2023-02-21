@@ -9,24 +9,14 @@ const editFormClose = document.querySelector(".form__button-close");
 const saveFormEdit = document.querySelector(".form__button-submit");
 const overlay = document.querySelector(".overlay");
 
-inputName.placeholder = profileName.textContent;
-inputDescription.placeholder = profileDescription.textContent;
 
- function showClick (){
-    editForm.classList.add("edit__form-container_active");
-    overlay.classList.add("overlay_active");
+ function toggle (){
+    editForm.classList.toggle("edit__form-container_active");
+    overlay.classList.toggle("overlay_active");
 }
 
-editProfile.addEventListener('click', showClick);
-
-
-
-function showClick (){
-   editForm.classList.toggle("edit__form-container_active");
-   overlay.classList.toggle("overlay_active");
-}
-
-editFormClose.addEventListener('click', showClick);
+editProfile.addEventListener('click', toggle);
+editFormClose.addEventListener('click', toggle);
 
 function submit (){
     profileName.innerHTML = inputName.value;
