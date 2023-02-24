@@ -32,4 +32,4 @@ Divirta-se com JavaScript!
 **Redes**
 
 ---> LinkedIn: https://www.linkedin.com/in/eduardo-de-oliveira-49700721b/
----> Github: https://github.com/EduardoDeOliveira99/web_project_4_ptbr.git
+---> Github: https://eduardodeoliveira99.github.io/web_project_4_ptbr/

@@ -1,5 +1,5 @@
-.profile__info{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }

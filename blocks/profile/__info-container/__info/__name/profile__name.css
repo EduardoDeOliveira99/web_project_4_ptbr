@@ -1,18 +1,18 @@
-.profile__name{
-    color: hsl(0, 0%, 100%);
-    font-size: 2.6rem;
-    line-height: 1.1;
-    font-weight: 400;
-    margin: 0;
+.profile__name {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.6rem;
+  line-height: 1.1;
+  font-weight: 400;
+  margin: 0;
 }
-@media screen and (max-width: 750px){
-    .profile__name{
-        font-size: 2rem;
-    }
+@media screen and (max-width: 750px) {
+  .profile__name {
+    font-size: 2rem;
+  }
 }
 
-@media screen and (max-width: 350px){
-    .profile__name{
-        font-size: 1.5rem;
-    }
+@media screen and (max-width: 350px) {
+  .profile__name {
+    font-size: 1.5rem;
+  }
 }

@@ -1,23 +1,23 @@
-.profile__add-image{
-    background-image: url("../../../images/profile/Add\ Button.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 150px;
-    height: 50px;
-    border: none;
-    background-color: hsl(0, 0%, 0%);
-    cursor: pointer;
-    transition: opacity .3s;
+.profile__add-image {
+  background-image: url("../../../images/profile/Add\ Button.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  transition: opacity 0.3s;
 }
 
-.profile__add-image:hover{
-    opacity: 0.4;
+.profile__add-image:hover {
+  opacity: 0.4;
 }
-@media screen and (max-width: 750px){
-    .profile__add-image{
-        background-image: url("../../../images/profile/Add\ Button\ mobile.png");
-        background-size:contain;
-        background-repeat: no-repeat;
-        min-width: 282px;
-    }
+@media screen and (max-width: 750px) {
+  .profile__add-image {
+    background-image: url("../../../images/profile/Add\ Button\ mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 282px;
+  }
 }

@@ -1,12 +1,12 @@
-.profile__description{
-    color: hsl(0, 0%, 100%);
-    font-size: 1.1rem;
-    line-height: 1.3;
-    font-weight: 400;
-    margin: 0;
+.profile__description {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.1rem;
+  line-height: 1.3;
+  font-weight: 400;
+  margin: 0;
 }
-@media screen and (max-width: 750px){
-    .profile__description{
-        align-self: center;
-    }
+@media screen and (max-width: 750px) {
+  .profile__description {
+    align-self: center;
+  }
 }

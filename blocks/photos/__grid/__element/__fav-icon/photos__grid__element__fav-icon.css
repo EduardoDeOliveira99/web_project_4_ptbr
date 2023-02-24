@@ -1,16 +1,16 @@
-.photos__grid__element__fav-icon{
-    background-image: url("../../../../../images/photos/Vector.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    width: 20px;
-    height: 18px;
-    cursor: pointer;
-    align-self: center;
-    transition: opacity .3s;
+.photos__grid__element__fav-icon {
+  background-image: url("../../../../../images/photos/Vector.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 20px;
+  height: 18px;
+  cursor: pointer;
+  align-self: center;
+  transition: opacity 0.3s;
 }
 
-.photos__grid__element__fav-icon:hover{
-    opacity: 0.3;
+.photos__grid__element__fav-icon:hover {
+  opacity: 0.3;
 }

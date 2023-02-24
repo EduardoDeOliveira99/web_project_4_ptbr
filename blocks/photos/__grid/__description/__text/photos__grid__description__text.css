@@ -1,10 +1,10 @@
-.photos__grid__description__text{
-    font-family: "inter", Arial, sans-serif;
-    font-size: 1.3rem;
-    font-weight: 900;
-    line-height: 1.2;
-    margin: 0;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+.photos__grid__description__text {
+  font-family: "inter", Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
