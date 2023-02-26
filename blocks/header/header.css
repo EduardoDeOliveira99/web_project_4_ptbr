@@ -1,12 +1,11 @@
-.header{
-    max-width: 880px;
-    display: flex;
-    margin-inline: auto;
-    flex-direction: column;
+.header {
+  max-width: 880px;
+  display: flex;
+  margin-inline: auto;
+  flex-direction: column;
 }
-@media screen and (max-width: 900px){
-    .header{
-        width: 90%;
-    }
-    
+@media screen and (max-width: 900px) {
+  .header {
+    width: 90%;
+  }
 }
