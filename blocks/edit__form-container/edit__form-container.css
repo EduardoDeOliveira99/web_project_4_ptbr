@@ -1,4 +1,4 @@
-.profile__edit__form-container {
+.edit__form-container {
   width: 430px;
   height: 330px;
   background: hsl(0, 0%, 100%);
@@ -12,22 +12,22 @@
 }
 
 @media screen and (max-width: 900px) {
-  .profile__edit__form-container {
+  .edit__form-container {
     top: 30%;
   }
 }
 @media screen and (max-width: 750px) {
-  .profile__edit__form-container {
+  .edit__form-container {
     top: 35%;
   }
 }
 @media screen and (max-width: 650px) {
-  .profile__edit__form-container {
+  .edit__form-container {
     top: 22%;
   }
 }
 @media screen and (max-width: 550px) {
-  .profile__edit__form-container {
+  .edit__form-container {
     width: 282px;
     height: 322px;
   }

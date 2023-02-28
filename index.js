@@ -4,14 +4,14 @@ const profileDescription = document.querySelector(".profile__description");
 const inputName = document.querySelector(".input__name");
 const inputDescription = document.querySelector(".input__description");
 const editProfile = document.querySelector(".profile__edit");
-const editForm = document.querySelector(".profile__edit__form-container");
+const editForm = document.querySelector(".edit__form-container");
 const editFormClose = document.querySelector(".form__button-close");
 const saveFormEdit = document.querySelector(".form__button-submit");
 const overlay = document.querySelector(".overlay");
 
 
  function toggle (){
-    editForm.classList.toggle("profile__edit__form-container_active");
+    editForm.classList.toggle("edit__form-container_active");
     overlay.classList.toggle("overlay_active");
 }
 
