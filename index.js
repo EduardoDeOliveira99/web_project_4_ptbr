@@ -5,8 +5,8 @@ const inputName = document.querySelector(".input__name");
 const inputDescription = document.querySelector(".input__description");
 const editProfile = document.querySelector(".profile__edit");
 const editForm = document.querySelector(".edit__form-container");
-const editFormClose = document.querySelector(".form__button-close");
-const saveFormEdit = document.querySelector(".form__button-submit");
+const editFormClose = document.querySelector(".edit__form-container__button-close");
+const saveFormEdit = document.querySelector(".edit__form-container__button-submit");
 const overlay = document.querySelector(".overlay");
 
 
