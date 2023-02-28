@@ -1,4 +1,4 @@
-.form__button-close {
+.edit__form-container__button-close {
   background-image: url("../../../images/profile-edit/Close\ Icon.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,11 +13,11 @@
   transition: opacity 0.3s;
 }
 
-.form__button-close:hover {
+.edit__form-container__button-close:hover {
   opacity: 0.3;
 }
 @media screen and (max-width: 550px) {
-  .form__button-close {
+  .edit__form-container__button-close {
     width: 26px;
     height: 26px;
     right: 0;

@@ -20,12 +20,12 @@
 @import url("./blocks/profile/__add-image/profile__add-image.css");
 
 @import url("./blocks/edit__form-container/edit__form-container.css");
-@import url("./blocks/edit__form-container/_active/edit__form-container_active.css");
-@import url("./blocks/edit__form-container/form__title/form__title.css");
-@import url("./blocks/edit__form-container/input__name/input__name.css");
-@import url("./blocks/edit__form-container/input__description/input__description.css");
-@import url("./blocks/edit__form-container/form__button-submit/form__button-submit.css");
-@import url("./blocks/edit__form-container/form__button-close/form__buton-close.css");
+@import url("./blocks/edit__form-container/__active/edit__form-container__active.css");
+@import url("./blocks/edit__form-container/__title/edit__form-container__title.css");
+@import url("./blocks/edit__form-container/__input__name/edit__form-container__input__name.css");
+@import url("./blocks/edit__form-container/__input__description/edit__form-container__input__description.css");
+@import url("./blocks/edit__form-container/__button-submit/edit__form-container__button-submit.css");
+@import url("./blocks/edit__form-container/__button-close/edit__form-container__button-close.css");
 
 @import url("./blocks/photos/photos.css");
 @import url("./blocks/photos/__grid/photos__grid.css");

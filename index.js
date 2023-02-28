@@ -11,7 +11,7 @@ const overlay = document.querySelector(".overlay");
 
 
  function toggle (){
-    editForm.classList.toggle("edit__form-container_active");
+    editForm.classList.toggle("edit__form-container__active");
     overlay.classList.toggle("overlay_active");
 }
 
