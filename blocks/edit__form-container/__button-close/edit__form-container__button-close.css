@@ -15,7 +15,8 @@
 
 .edit__form-container__button-close:hover {
   opacity: 0.3;
-}
+} 
+
 @media screen and (max-width: 550px) {
   .edit__form-container__button-close {
     width: 26px;
