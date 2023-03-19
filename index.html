@@ -27,17 +27,35 @@
             </div>    
                 <button type="button" class="profile__add-image"></button>   
                 
+            <div class="add-image__form-container">
+                <h3 class="form__title">Novo Local</h3>
+                <input class="input__name" type="text" placeholder="Título">
+                <input class="input__description" type="url" placeholder="Link de imagem">
+                <button class="form__button-submit" type="submit">Criar</button>
+                <button class="form__button-close" type="button"></button>  
+            </div> 
             <div class="edit__form-container">
                 <h3 class="form__title">Editar perfil</h3>
                 <input class="input__name" type="text" placeholder="Digite seu nome">
                 <input class="input__description" type="text" placeholder="Digite sua descrição">
                 <button class="form__button-submit" type="submit">Salvar</button>
                 <button class="form__button-close" type="button"></button>
-            </div>           
+            </div>             
         </section>
         <section class="photos">
                 <ul class="photos__grid">
-                    <li class="grid__element">
+
+                    <template id="grid__element">
+                        <li class="grid__element">
+                            <img src="/images/photos/kirill-pershin-1088404-unsplash.jpg" alt="Imagem utilizada pelo usuário" class="grid__image">
+                            <div class="grid__description">
+                                <p class="grid__description__text">Vale de Yosemite</p>
+                                <button type="button" class="grid__element__fav-icon"></button>
+                            </div>
+                        </li>
+                    </template>
+
+                <!--<li class="grid__element">
                         <img src="/images/photos/kirill-pershin-1088404-unsplash.jpg" alt="Imagem gerada automaticamente de algum lugar da natureza" class="grid__image">
                         <div class="grid__description">
                             <p class="grid__description__text">Vale de Yosemite</p>
@@ -79,7 +97,7 @@
                             <button type="button" class="grid__element__fav-icon"></button>
                         </div>
                     </li>
-                </ul>
+                </ul>-->
         </section>
         <footer class="footer">
             <p class="footer__text"> &#169; 2021 Around The U.S.

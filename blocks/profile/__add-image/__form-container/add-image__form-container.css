@@ -1,0 +1,34 @@
+.add-image__form-container{
+    width: 430px;
+    height: 330px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 3%;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 900px){
+    .edit__form-container{
+       top: 30%
+    }
+}
+@media screen and (max-width: 750px){
+    .edit__form-container{
+        top: 35%
+    }
+}
+@media screen and (max-width: 650px){
+    .edit__form-container{
+        top: 22%
+    }
+}
+@media screen and (max-width: 550px){
+    .edit__form-container{
+        width: 282px;
+        height: 322px;
+    }
+}

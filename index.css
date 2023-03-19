@@ -16,6 +16,9 @@
 @import url("./blocks/profile/__info-container/__info/__description/profile__description.css");
 @import url("./blocks/profile/__edit/profile__edit.css");
 @import url("./blocks/profile/__add-image/profile__add-image.css");
+@import url("./blocks/profile/__add-image/__form-container/add-image__form-container.css");
+@import url("./blocks/profile/__add-image/__form-container/__active/add-image__form-container_active.css");
+@import url("./blocks/profile/__add-image/__form-container/input__image-link/add-image__form-container__image-link.css");
 
 @import url("./blocks/profile/edit__form-container/edit__form-container.css");
 @import url("./blocks/profile/edit__form-container/_active/edit__form-container_active.css");
