@@ -1,0 +1,27 @@
+.photos__modal__btt-close{
+    background: url("/images/profile-edit/Close\ Icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none;
+    top: -10%;
+    right: -5%;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.photos__modal__btt-close:hover{
+    opacity: 0.3;
+}
+@media screen and (max-width: 550px){
+    .photos__modal__btt-close{
+        width: 26px;
+        height: 26px;
+        right: 0;
+        top: -10%;
+    }
+  }
+  

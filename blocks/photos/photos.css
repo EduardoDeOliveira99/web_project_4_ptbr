@@ -2,4 +2,6 @@
     max-width: 880px;
     margin: 0 auto;
     padding-top: 45px;
+    height: auto;
+    position: relative;
 }

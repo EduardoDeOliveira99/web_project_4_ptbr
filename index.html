@@ -29,8 +29,8 @@
                 
             <div class="add-image__form-container">
                 <h3 class="form__title">Novo Local</h3>
-                <input class="input__name" type="text" placeholder="Título">
-                <input class="input__description" type="url" placeholder="Link de imagem">
+                <input class="input__title" type="text" placeholder="Título">
+                <input class="input__image" type="url" placeholder="Link de imagem">
                 <button class="form__button-submit" type="submit">Criar</button>
                 <button class="form__button-close" type="button"></button>  
             </div> 
@@ -40,64 +40,25 @@
                 <input class="input__description" type="text" placeholder="Digite sua descrição">
                 <button class="form__button-submit" type="submit">Salvar</button>
                 <button class="form__button-close" type="button"></button>
-            </div>             
+            </div>           
         </section>
         <section class="photos">
+            <div class="photos__modal">
+                <button class="photos__modal__btt-close" type="button"></button>
+                <img src="" alt="Imagem utilizada pelo usuário" class="photos__modal__image">
+                <p class="photos__modal__description">fgbfgbfg</p>
+            </div>
                 <ul class="photos__grid">
-
                     <template id="grid__element">
                         <li class="grid__element">
-                            <img src="/images/photos/kirill-pershin-1088404-unsplash.jpg" alt="Imagem utilizada pelo usuário" class="grid__image">
+                            <img src="" alt="Imagem utilizada pelo usuário" class="grid__image">
+                            <button type="button" class="grid__delete"></button>
                             <div class="grid__description">
-                                <p class="grid__description__text">Vale de Yosemite</p>
+                                <p class="grid__description__text"></p>
                                 <button type="button" class="grid__element__fav-icon"></button>
                             </div>
                         </li>
                     </template>
-
-                <!--<li class="grid__element">
-                        <img src="/images/photos/kirill-pershin-1088404-unsplash.jpg" alt="Imagem gerada automaticamente de algum lugar da natureza" class="grid__image">
-                        <div class="grid__description">
-                            <p class="grid__description__text">Vale de Yosemite</p>
-                            <button type="button" class="grid__element__fav-icon"></button>
-                        </div>
-                    </li>
-                    <li class="grid__element">
-                        <img src="/images/photos/kirill-pershin-1556355-unsplash.png" alt="Imagem gerada automaticamente de algum lugar da natureza" class="grid__image">
-                        <div class="grid__description">
-                            <p class="grid__description__text">Montanhas Care</p>
-                            <button type="button" class="grid__element__fav-icon"></button>
-                        </div>
-                    </li>
-                    <li class="grid__element">
-                        <img src="/images/photos/kirill-pershin-1556355-unsplash (1).png" alt="Imagem gerada automaticamente de algum lugar da natureza" class="grid__image">
-                        <div class="grid__description">
-                            <p class="grid__description__text">Vanoise National lake</p>
-                            <button type="button" class="grid__element__fav-icon"></button>
-                        </div>
-                    </li>
-                    <li class="grid__element">
-                        <img src="/images/photos/kirill-pershin-1404681-unsplash.png" alt="Imagem gerada automaticamente de algum lugar da natureza" class="grid__image">
-                        <div class="grid__description">
-                            <p class="grid__description__text">Lago Louise</p>
-                            <button type="button" class="grid__element__fav-icon"></button>
-                        </div>
-                    </li>
-                    <li class="grid__element">
-                        <img src="./images/photos/kirill-pershin-1404681-unsplash (1).png" alt="Imagem gerada automaticamente de algum lugar da natureza" class="grid__image">
-                        <div class="grid__description">
-                            <p class="grid__description__text">Latemar</p>
-                            <button type="button" class="grid__element__fav-icon"></button>
-                        </div>
-                    </li>
-                    <li class="grid__element">
-                        <img src="/images/photos/kirill-pershin-1088404-unsplash.png" alt="Imagem gerada automaticamente de algum lugar da natureza" class="grid__image">
-                        <div class="grid__description">
-                            <p class="grid__description__text">Lago di Braies</p>
-                            <button type="button" class="grid__element__fav-icon"></button>
-                        </div>
-                    </li>
-                </ul>-->
         </section>
         <footer class="footer">
             <p class="footer__text"> &#169; 2021 Around The U.S.
