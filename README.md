@@ -1,16 +1,16 @@
-# Projeto 4:  EUA Afora
+# Projeto 5:  EUA Afora - Parte 2
 
 ### Visão geral
 
+* Funcionalidades
 * Figma
-* Imagens
-
+* Redes
+**Funcionalidades**
+    Neste projeto avançamos um pouco nas funcionalidades JS, principalmente na manipulação dos elementos DOM, arrays, loops e funções. O usuário nesta interface agora pode adicionar seu próprio card, podendo escolher o título e imagem. Além disso vai poder excluir quantos cards quiser e acionar o botão do gostei, e caso queira conferir melhor as imagens, adicionei um modal onde temos uma visualição melho de cada imagem.
 **Figma**
 
-* [Link para o projeto no Figma](https://www.figma.com/file/XfB6BSINvliub43JgKza1e/WEB.-Sprint-4.-Around-The-U.S.-desktop-%2B-mobile-pt)
+* [Link para o projeto no Figma](https://www.figma.com/file/HD3sjY52cfmedXVdlxkhZ0/WEB%2C-Sprint-5-(10.1)%3A-EUA-Afora-%7C-desktop-%2B-mobile?node-id=1-246&t=sQwm3w3xrQ1MWUEY-0)
 
-**Imagens**
+**Redes**
 
-A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido.
-
-Divirta-se com JavaScript!
+Github - 
