@@ -9,62 +9,61 @@
   </head>
   <body>
     <div class="main">
-        <div class="overlay"></div>
-        <header class="header">
-            <img  class="header__logo" src="/images/logo/logo.png" alt="Logo do site 'Around The U.S.'">
-            <div class="header__bottom-line"></div>
-        </header>
-        <section class="profile">
-            <picture>
-                <img class="profile_image" src="/images/profile/layyah-ali-yUABOHX5ZgE-unsplash.jpg" alt="Imagem de perfil, suricato">
-            </picture>
-            <div class="profile__info-container">
-                <div class="profile__info">
-                    <h1 class="profile__name">Jacques Cousteau</h1>
-                    <h2 class="profile__description">Explorador</h2> 
-                </div>
-                <button type="button" class="profile__edit"></button>   
-            </div>    
-                <button type="button" class="profile__add-image"></button>   
-                
-            <div class="add-image__form-container">
-                <h3 class="form__title">Novo Local</h3>
-                <input class="input__title" type="text" placeholder="Título">
-                <input class="input__image" type="url" placeholder="Link de imagem">
-                <button class="form__button-submit" type="submit">Criar</button>
-                <button class="form__button-close" type="button"></button>  
-            </div> 
-            <div class="edit__form-container">
-                <h3 class="form__title">Editar perfil</h3>
-                <input class="input__name" type="text" placeholder="Digite seu nome">
-                <input class="input__description" type="text" placeholder="Digite sua descrição">
-                <button class="form__button-submit" type="submit">Salvar</button>
-                <button class="form__button-close" type="button"></button>
-            </div>           
-        </section>
-        <section class="photos">
-            <div class="photos__modal">
-                <button class="photos__modal__btt-close" type="button"></button>
-                <img src="" alt="Imagem utilizada pelo usuário" class="photos__modal__image">
-                <p class="photos__modal__description">fgbfgbfg</p>
-            </div>
-                <ul class="photos__grid">
-                    <template id="grid__element">
-                        <li class="grid__element">
-                            <img src="" alt="Imagem utilizada pelo usuário" class="grid__image">
-                            <button type="button" class="grid__delete"></button>
-                            <div class="grid__description">
-                                <p class="grid__description__text"></p>
-                                <button type="button" class="grid__element__fav-icon"></button>
-                            </div>
-                        </li>
-                    </template>
-        </section>
-        <footer class="footer">
-            <p class="footer__text"> &#169; 2021 Around The U.S.
-            </p>
-        </footer>
-        
+      <div class="overlay"></div>
+      <header class="header">
+          <img  class="header__logo" src="/images/logo/logo.png" alt="Logo do site 'Around The U.S.'">
+          <div class="header__bottom-line"></div>
+      </header>
+      <section class="profile">
+        <picture>
+            <img class="profile_image" src="/images/profile/layyah-ali-yUABOHX5ZgE-unsplash.jpg" alt="Imagem de perfil, suricato">
+        </picture>
+        <div class="profile__info-container">
+          <div class="profile__info">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <h2 class="profile__description">Explorador</h2> 
+          </div>
+          <button type="button" class="profile__edit"></button>   
+        </div>    
+          <button type="button" class="profile__add-image"></button>     
+        <div class="add-image__form-container">
+          <h3 class="form__title">Novo Local</h3>
+          <input class="input__title" type="text" placeholder="Título">
+          <input class="input__image" type="url" placeholder="Link de imagem">
+          <button class="form__button-submit" type="submit">Criar</button>
+          <button class="form__button-close" type="button"></button>  
+        </div> 
+        <div class="edit__form-container">
+          <h3 class="form__title">Editar perfil</h3>
+          <input class="input__name" type="text" placeholder="Digite seu nome">
+          <input class="input__description" type="text" placeholder="Digite sua descrição">
+          <button class="form__button-submit" type="submit">Salvar</button>
+          <button class="form__button-close" type="button"></button>
+        </div>           
+      </section>
+      <section class="photos">
+        <div class="photos__modal">
+          <button class="photos__modal__btt-close" type="button"></button>
+          <img src="" alt="Imagem utilizada pelo usuário" class="photos__modal__image">
+          <p class="photos__modal__description">fgbfgbfg</p>
+        </div>
+        <ul class="photos__grid">
+          <template id="grid__element">
+            <li class="grid__element">
+              <img src="" alt="Imagem utilizada pelo usuário" class="grid__image">
+              <button type="button" class="grid__delete"></button>
+              <div class="grid__description">
+                <p class="grid__description__text"></p>
+                <button type="button" class="grid__element__fav-icon"></button>
+              </div>
+            </li>
+          </template>
+        </ul>  
+      </section>
+      <footer class="footer">
+        <p class="footer__text"> &#169; 2021 Around The U.S.
+        </p>
+      </footer>
     </div>
     <script src="./index.js"></script>
   </body>
