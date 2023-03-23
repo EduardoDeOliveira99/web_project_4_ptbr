@@ -1,35 +1,13 @@
-# Projeto 4:  EUA Afora
+# Projeto 5:  EUA Afora - Parte 2
 
 ### Visão geral
 
-
-* Finalidade
-* Funcionalidade
+* Funcionalidades
 * Figma
-* Redes
 
-
-**Finalidade**
-
-Este projeto tem como finalidade a implementação de toda teoria aplicada no sprint 5 da plataforma Practicum de ensino. Iniciamos a utilização de JavaScript, uma das ferramentas que mais tenho apreço e estou muito empolgado para aprender mais!
-
-**Funcionalidade**
-
-Nesta Landingpage o usuário tem acesso a um perfil de galeria de fotos, onde com a ferramenta JS ele vai poder alterar o nome do perfil para o texto que desejar. 
-HTML/CSS - Design responsivo para diversos dispositivos (Desktop, tabler e smartphone).
-JS - Possui três botões funcionais, um para abrir o modal em que o usuário pode alterar os dados do perfil, outro onde ele vai submeter os dados do formulário assim salvando nos elementos do perfil, e por fim, o botão para fechar o modal descartando as alterações já preenchidas.
-
+**Funcionalidades**
+    Neste projeto avançamos um pouco nas funcionalidades JS, principalmente na manipulação dos elementos DOM, arrays, loops e funções. O usuário nesta interface agora pode adicionar seu próprio card, podendo escolher o título e imagem. Além disso vai poder excluir quantos cards quiser e acionar o botão do gostei, e caso queira conferir melhor as imagens, adicionei um modal onde temos uma visualição melho de cada imagem.
 **Figma**
 
-* [Link para o projeto no Figma](https://www.figma.com/file/XfB6BSINvliub43JgKza1e/WEB.-Sprint-4.-Around-The-U.S.-desktop-%2B-mobile-pt)
+* [Link para o projeto no Figma](https://www.figma.com/file/HD3sjY52cfmedXVdlxkhZ0/WEB%2C-Sprint-5-(10.1)%3A-EUA-Afora-%7C-desktop-%2B-mobile?node-id=1-246&t=sQwm3w3xrQ1MWUEY-0)
 
-**Imagens**
-
-A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido.
-
-Divirta-se com JavaScript!
-
-**Redes**
-
----> LinkedIn: https://www.linkedin.com/in/eduardo-de-oliveira-49700721b/
----> Github: https://eduardodeoliveira99.github.io/web_project_4_ptbr/

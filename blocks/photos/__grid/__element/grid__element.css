@@ -1,0 +1,10 @@
+.grid__element{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 3%;
+    max-width: 282px;
+    height: 361px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+

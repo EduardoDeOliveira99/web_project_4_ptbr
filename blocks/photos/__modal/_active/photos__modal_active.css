@@ -1,0 +1,26 @@
+.photos__modal_active{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 900px) {
+    .photos__modal_active{
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .photos__modal_active{
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+    }
+}
