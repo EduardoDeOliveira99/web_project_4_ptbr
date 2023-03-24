@@ -5,7 +5,8 @@ const profileDescription = document.querySelector(".profile__description");
 const inputName = editForm.querySelector("#input__name");
 const inputDescription = editForm.querySelector("#input__description");
 const editProfile = document.querySelector(".profile__edit");
-const editFormClose = document.querySelector("#form__button-close");
+const editCloseForm = document.querySelector(".edit__form__button-close");
+const addImageCloseForm = document.querySelector(".add-image__form__button-close");
 const saveFormEdit = editForm.querySelector("#form__button-submit");
 const elementTemplate = document.querySelector("#grid__element").content;
 const gridElement = elementTemplate.querySelector(".grid__element").cloneNode(true);
@@ -109,13 +110,19 @@ function openAddImageForm() {
 
 addImage.addEventListener("click", openAddImageForm);
 
-function closeForm() {
+function closeEditForm() {
   editForm.classList.remove("edit__form-container_active");
+  overlay.classList.remove("overlay_active");
+}
+
+editCloseForm.addEventListener("click", closeEditForm);
+
+function closeAddImageForm() {
   overlay.classList.remove("overlay_active");
   addImageForm.classList.remove("profile__add-image__form-container_active");
 }
 
-editFormClose.addEventListener("click", closeForm);
+addImageCloseForm.addEventListener("click", closeAddImageForm);
 
 
 function editSubmit(evt) {
