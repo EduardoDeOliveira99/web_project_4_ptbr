@@ -19,7 +19,7 @@
 @import url("./blocks/profile/__edit/profile__edit.css");
 
 @import url("./blocks/profile/__add-image/profile__add-image.css");
-@import url("./blocks/profile/__add-image/__form-container/profile__add-image__form-container.css");
+@import url("./blocks/profile/__add-image/__form-container/add-image__form-container.css");
 @import url("./blocks/profile/__add-image/__form-container/__active/profile__add-image__form-container_active.css");
 @import url("./blocks/profile/__add-image/__form-container/input__image/add-image__input__image.css");
 @import url("./blocks/profile/__add-image/__form-container/input__title/add-image__input__title.css");

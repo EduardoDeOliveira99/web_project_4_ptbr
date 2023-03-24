@@ -12,7 +12,7 @@ const elementTemplate = document.querySelector("#grid__element").content;
 const gridElement = elementTemplate.querySelector(".grid__element").cloneNode(true);
 const overlay = document.querySelector(".overlay");
 
-const addImageForm = document.querySelector(".profile__add-image__form-container");
+const addImageForm = document.querySelector(".add-image__form-container");
 const addImage = document.querySelector(".profile__add-image");
 
 const imageTitle = addImageForm.querySelector("#input__name");
@@ -104,7 +104,7 @@ function openEditForm() {
 editProfile.addEventListener("click", openEditForm);
 
 function openAddImageForm() {
-  addImageForm.classList.add("profile__add-image__form-container_active");
+  addImageForm.classList.add("add-image__form-container_active");
   overlay.classList.add("overlay_active");
 }
 
@@ -119,7 +119,7 @@ editCloseForm.addEventListener("click", closeEditForm);
 
 function closeAddImageForm() {
   overlay.classList.remove("overlay_active");
-  addImageForm.classList.remove("profile__add-image__form-container_active");
+  addImageForm.classList.remove("add-image__form-container_active");
 }
 
 addImageCloseForm.addEventListener("click", closeAddImageForm);
@@ -139,7 +139,7 @@ saveFormEdit.addEventListener("click", editSubmit);
 function addImageSubmit(evt) {
   evt.preventDefault();
 
-  addImageForm.classList.remove("profile__add-image__form-container_active");
+  addImageForm.classList.remove("add-image__form-container_active");
   overlay.classList.remove("overlay_active");
 
   if (inputTitle.value && inputImage.value !== null) {
