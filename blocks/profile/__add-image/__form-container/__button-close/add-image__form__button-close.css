@@ -1,5 +1,5 @@
-.edit__form-container__button-close {
-  background-image: url("../../../images/profile-edit/Close\ Icon.png");
+.add-image__form__button-close {
+  background-image: url("../../../../../images/profile-edit/Close\ Icon.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -13,12 +13,12 @@
   transition: opacity 0.3s;
 }
 
-.edit__form-container__button-close:hover {
+.add-image__form__button-close:hover {
   opacity: 0.3;
 } 
 
 @media screen and (max-width: 550px) {
-  .edit__form-container__button-close {
+  .add-image__form__button-close {
     width: 26px;
     height: 26px;
     right: 0;

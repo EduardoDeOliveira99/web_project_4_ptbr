@@ -11,12 +11,12 @@
     <div class="main">
       <div class="overlay"></div>
       <header class="header">
-          <img  class="header__logo" src="/images/logo/logo.png" alt="Logo do site 'Around The U.S.'">
-          <div class="header__bottom-line"></div>
+        <img  class="header__logo" src="/images/logo/logo.png" alt="Logo do site 'Around The U.S.'">
+        <div class="header__bottom-line"></div>
       </header>
       <section class="profile">
         <picture>
-            <img class="profile_image" src="/images/profile/layyah-ali-yUABOHX5ZgE-unsplash.jpg" alt="Imagem de perfil, suricato">
+          <img class="profile__image" src="/images/profile/layyah-ali-yUABOHX5ZgE-unsplash.jpg" alt="Imagem de perfil, suricato">
         </picture>
         <div class="profile__info-container">
           <div class="profile__info">
@@ -25,20 +25,22 @@
           </div>
           <button type="button" class="profile__edit"></button>   
         </div>    
-          <button type="button" class="profile__add-image"></button>     
-        <div class="add-image__form-container">
-          <h3 class="form__title">Novo Local</h3>
-          <input class="input__title" type="text" placeholder="Título">
-          <input class="input__image" type="url" placeholder="Link de imagem">
-          <button class="form__button-submit" type="submit">Criar</button>
-          <button class="form__button-close" type="button"></button>  
+
+        <button type="button" class="profile__add-image"></button>     
+        
+        <div class="profile__add-image__form-container">
+          <h3 class="add-image__form__title">Novo Local</h3>
+          <input class="add-image__input__title" id="input__title" type="text" placeholder="Título">
+          <input class="add-image__input__image" id="input__image" type="url" placeholder="Link de imagem">
+          <button class="add-image__form__button-submit" id="form__button-submit" type="submit">Criar</button>
+          <button class="add-image__form__button-close" id="form__button-close" type="button"></button>  
         </div> 
         <div class="edit__form-container">
-          <h3 class="form__title">Editar perfil</h3>
-          <input class="input__name" type="text" placeholder="Digite seu nome">
-          <input class="input__description" type="text" placeholder="Digite sua descrição">
-          <button class="form__button-submit" type="submit">Salvar</button>
-          <button class="form__button-close" type="button"></button>
+          <h3 class="edit__form__title">Editar perfil</h3>
+          <input class="edit__form__input__name" id="input__name"type="text" placeholder="Digite seu nome">
+          <input class="edit__form__input__description" id="input__description" type="text" placeholder="Digite sua descrição">
+          <button class="edit__form__button-submit" id="form__button-submit" type="submit">Salvar</button>
+          <button class="edit__form__button-close" id="form__button-close" type="button"></button>
         </div>           
       </section>
       <section class="photos">

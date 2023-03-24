@@ -1,4 +1,4 @@
-.photos__grid__element__fav-icon {
+.grid__element__fav-icon {
   background-image: url("../../../../../images/photos/Vector.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,6 +11,6 @@
   transition: opacity 0.3s;
 }
 
-.photos__grid__element__fav-icon:hover {
+.grid__element__fav-icon:hover {
   opacity: 0.3;
 }

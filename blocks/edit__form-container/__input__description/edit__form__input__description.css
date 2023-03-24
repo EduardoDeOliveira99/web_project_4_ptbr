@@ -1,9 +1,9 @@
-.edit__form-container__input__name {
+.edit__form__input__description {
   display: inherit;
   border: none;
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.114);
   max-width: 358px;
   width: 85%;
   margin-inline: auto;
-  margin-top: 55px;
+  margin-top: 30px;
 }
