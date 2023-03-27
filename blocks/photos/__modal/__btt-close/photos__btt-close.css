@@ -1,4 +1,4 @@
-.photos__modal__btt-close{
+.photos__btt-close{
     background: url("/images/profile-edit/Close\ Icon.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,11 +13,11 @@
     transition: opacity .3s;
 }
 
-.photos__modal__btt-close:hover{
+.photos__btt-close:hover{
     opacity: 0.3;
 }
 @media screen and (max-width: 550px){
-    .photos__modal__btt-close{
+    .photos__btt-close{
         width: 26px;
         height: 26px;
         right: 0;

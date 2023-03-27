@@ -19,23 +19,23 @@
 @import url("./blocks/profile/__edit/profile__edit.css");
 
 @import url("./blocks/profile/__add-image/profile__add-image.css");
+
 @import url("./blocks/profile/__add-image/__form-container/add-image__form-container.css");
 @import url("./blocks/profile/__add-image/__form-container/__active/add-image__form-container_active.css");
-@import url("./blocks/profile/__add-image/__form-container/input__image/add-image__input__image.css");
-@import url("./blocks/profile/__add-image/__form-container/input__title/add-image__input__title.css");
-@import url("./blocks/profile/__add-image/__form-container/__button-submit/add-image__form-container__button-submit.css");
-@import url("./blocks/profile/__add-image/__form-container/__button-close/add-image__form__button-close.css");
-@import url("./blocks/profile/__add-image/__form-container/__title/add-image__form-container__title.css");
-
+@import url("./blocks/profile/__add-image/__form-container/__input-image/add-image__input-image.css");
+@import url("./blocks/profile/__add-image/__form-container/__input-title/add-image__input-title.css");
+@import url("./blocks/profile/__add-image/__form-container/__button-submit/add-image__button-submit.css");
+@import url("./blocks/profile/__add-image/__form-container/__button-close/add-image__button-close.css");
+@import url("./blocks/profile/__add-image/__form-container/__title/add-image__title.css");
 
 
 @import url("./blocks/edit__form-container/edit__form-container.css");
 @import url("./blocks/edit__form-container/_active/edit__form-container_active.css");
-@import url("./blocks/edit__form-container/__title/edit__form__title.css");
-@import url("./blocks/edit__form-container/__input__name/edit__form__input__name.css");
-@import url("./blocks/edit__form-container/__input__description/edit__form__input__description.css");
-@import url("./blocks/edit__form-container/__button-submit/edit__form__button-submit.css");
-@import url("./blocks/edit__form-container/__button-close/edit__form__button-close.css");
+@import url("./blocks/edit__form-container/__title/edit__title.css");
+@import url("./blocks/edit__form-container/__input-name/edit__input-name.css");
+@import url("./blocks/edit__form-container/__input-description/edit__input-description.css");
+@import url("./blocks/edit__form-container/__button-submit/edit__button-submit.css");
+@import url("./blocks/edit__form-container/__button-close/edit__button-close.css");
 
 @import url("./blocks/photos/photos.css");
 @import url("./blocks/photos/__grid/photos__grid.css");
@@ -48,9 +48,9 @@
 @import url("./blocks/photos/__grid/__delete/grid__delete.css");
 @import url("./blocks/photos/__modal/photos__modal.css");
 @import url("./blocks/photos/__modal/_active/photos__modal_active.css");
-@import url("./blocks/photos/__modal/__image/photos__modal__image.css");
-@import url("./blocks/photos/__modal/__description/photos__modal__description.css");
-@import url("./blocks/photos/__modal/__btt-close/photos__modal__btt-close.css");
+@import url("./blocks/photos/__modal/__image/photos__image.css");
+@import url("./blocks/photos/__modal/__description/photos__description.css");
+@import url("./blocks/photos/__modal/__btt-close/photos__btt-close.css");
 
 @import url("./blocks/footer/footer.css");
 @import url("./blocks/footer/__text/footer__text.css");

@@ -1,4 +1,4 @@
-.edit__form__button-submit {
+.edit__button-submit {
   display: inherit;
   border: none;
   font-family: inherit;
@@ -12,11 +12,11 @@
   cursor: pointer;
 }
 
-.edit__form__button-submit:hover {
+.edit__button-submit:hover {
   background-color: rgb(71, 71, 71);
 }
 @media screen and (max-width: 550px) {
-  .edit__form__button-submit {
+  .edit__button-submit {
     padding: 14px 90px;
   }
 }

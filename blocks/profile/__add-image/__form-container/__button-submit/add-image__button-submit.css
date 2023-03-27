@@ -1,4 +1,4 @@
-.add-image__form__button-submit {
+.add-image__button-submit {
   display: inherit;
   border: none;
   font-family: inherit;
@@ -12,11 +12,11 @@
   cursor: pointer;
 }
 
-.add-image__form__button-submit:hover {
+.add-image__button-submit:hover {
   background-color: rgb(71, 71, 71);
 }
 @media screen and (max-width: 550px) {
-  .add-image__form__button-submit {
+  .add-image__button-submit {
     padding: 14px 90px;
   }
 }
