@@ -7,7 +7,7 @@ const inputDescription = editForm.querySelector("#input__description");
 const editProfile = document.querySelector(".profile__edit");
 const editCloseForm = document.querySelector(".edit__button-close");
 const addImageCloseForm = document.querySelector(".add-image__button-close");
-const saveFormEdit = editForm.querySelector("#form__button-submit");
+const saveFormEdit = editForm.querySelector(".edit__button-submit");
 const elementTemplate = document.querySelector("#grid__element").content;
 const gridElement = elementTemplate.querySelector(".grid__element").cloneNode(true);
 const overlay = document.querySelector(".overlay");
@@ -17,7 +17,7 @@ const addImage = document.querySelector(".profile__add-image");
 
 const imageTitle = addImageForm.querySelector("#input__name");
 const imageLink = addImageForm.querySelector("#input__description");
-const saveFormAddImage = addImageForm.querySelector("#form__button-submit");
+const saveFormAddImage = addImageForm.querySelector(".add-image__button-submit");
 const inputTitle = addImageForm.querySelector("#input__title");
 const inputImage = addImageForm.querySelector("#input__image");
 
@@ -124,6 +124,8 @@ function closeAddImageForm() {
 
 addImageCloseForm.addEventListener("click", closeAddImageForm);
 
+inputName.placeholder = profileName.textContent;
+inputDescription.placeholder = profileDescription.textContent;
 
 function editSubmit(evt) {
   evt.preventDefault();
